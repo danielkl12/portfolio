@@ -48,6 +48,7 @@
     flex-wrap: wrap;
     margin-left: 100px;
     margin-right: 100px;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 
@@ -56,6 +57,38 @@
     font-family: 'Courier New', Courier, monospace;
     
 }
+
+.cards {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+
+
+.row {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+  }
+
+ 
+
+ .card {
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    padding: 2rem;
+}
+
+.my-picture {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+
 
 
 
@@ -70,13 +103,16 @@
 
 footer{
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 img {
     float: right;
-    margin-top: 100px;
-    margin-right: 100px;
     border: solid black 3px;
     border-radius: 5px;
     box-shadow:5px 5px 0px 0px cornflowerblue;
+}
+
+body {
+    background-color:darkgray;
 }
