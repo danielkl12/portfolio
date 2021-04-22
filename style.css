@@ -1,3 +1,5 @@
+
+
 /* Class selectors */
 
 .header {
@@ -63,29 +65,33 @@
     display: flex;
     justify-content:space-evenly;
     
+    
 }
 
-
-
-.row {
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-  }
-
- 
-
- .card {
+.card {
     display: flex;
     flex-direction: row;
     min-height: 100%;
-    padding: 2rem;
+    border-radius: 8px; 
+    transition: all 0.5s ease-in-out;
+   
 }
 
 .my-picture {
     display: flex;
     margin-right: 50px;
     margin-top: 50px;
+}
+
+  
+  .card:hover,
+  .card:hover .card {
+    box-shadow: inset 0px 0px 8px red, 0 0 15px red;
+  }
+
+  .my-picture:hover,
+  .my-picture:hover .my-picture {
+      box-shadow: inset 0px 0px 20px red, 0 0 15px red;
 }
 
 
@@ -114,5 +120,7 @@ img {
 }
 
 body {
-    background-color:darkgray;
+    background-color:gray;
 }
+
+/* Media Query */
