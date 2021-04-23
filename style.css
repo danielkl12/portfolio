@@ -70,10 +70,10 @@
 
 .card {
     display: flex;
-    flex-direction: row;
     min-height: 100%;
     border-radius: 8px; 
     transition: all 0.5s ease-in-out;
+    opacity: 0.5;
    
 }
 
@@ -84,25 +84,35 @@
 }
 
   
-  .card:hover,
-  .card:hover .card {
+.card:hover,
+.card:hover .card {
     box-shadow: inset 0px 0px 8px red, 0 0 15px red;
+    opacity: 1.0;
   }
 
-  .my-picture:hover,
-  .my-picture:hover .my-picture {
+.my-picture:hover,
+.my-picture:hover .my-picture {
       box-shadow: inset 0px 0px 20px red, 0 0 15px red;
 }
 
+.application {
+    width: 130px;
+    height: 195px;
+    background: url("./assets/images/IMG_2019.jpg") no-repeat;
+    display: inline-block;
+    
+}
+.application:hover {
+    background-image:url("./assets/images/Application.jpg") no-repeat;
+}
 
-
-
-
-
-
-
-
-
+.names {
+    display: flex;
+    justify-content:space-around;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    
+}
 
 
 /* Element Selectors */
@@ -110,6 +120,7 @@
 footer{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
 }
 
 img {
@@ -119,19 +130,27 @@ img {
     box-shadow:5px 5px 0px 0px cornflowerblue;
 }
 
-body {
+body{
     background-color:gray;
 }
 
+h3 {
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 0px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 /* Media Query */
-@media only screen and (max-width: 600px) {
-    body {
-      
-    }
-  }
 
   @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
+      flex-direction: column;
     }
   }
+  
