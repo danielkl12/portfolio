@@ -152,10 +152,16 @@ h3 {
     body {
       background-color: lightblue;
       flex-direction: column;
+    }
+    header {
+        text-align: center;
+    }
+
+
       
 
     }
-  }
+  
 
   
   
