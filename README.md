@@ -1,3 +1,3 @@
 # portfolio
-Portfolio
+Professional portfolio
 ![Daniel Klauer](./assets/images/screenshot.png)
