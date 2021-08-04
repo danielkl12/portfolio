@@ -10,7 +10,7 @@
 
 .title {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .header nav {
@@ -51,13 +51,13 @@
     flex-wrap: wrap;
     margin-left: 100px;
     margin-right: 100px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
 }
 
 .portfolio {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     
 }
 
@@ -120,7 +120,7 @@
 
 footer{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 20px;
 }
 
@@ -148,7 +148,7 @@ h3 {
 
 h2 {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
